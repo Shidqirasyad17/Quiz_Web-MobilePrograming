@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color:rgb(17, 0, 57);
     margin: 8px;
 
@@ -76,17 +76,20 @@ body {
     padding: 20px;              
     box-shadow: 0 4px 15px rgba(0, 255, 21, 0.8); 
     height: 300px;
-    max-width:300px; 
+    width: auto;
     margin-right: auto;
     margin-bottom: 50px;
 }
 
-.hobi span{
+.hobi h2{
     color: #00ff1e;
 }
 
-.hobi h1{
+.hobi h2{
      font-size: 25px;
+}
+.hobi p{
+    line-height: 1.2;
 }
 
 
@@ -107,7 +110,7 @@ body {
    .shidqi, .hobi{
       align-items: center;
       padding: 20px;
-      max-width: 300px;
+    
     margin: 0 auto;  
 
    }
